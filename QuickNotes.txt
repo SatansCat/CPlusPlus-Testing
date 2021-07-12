@@ -1,0 +1,29 @@
+Inventory system: 
+(Array of objects)
+
+Necisary features:
+	Menu to select action to take.
+	add item:
+		Added from.... list (possible shop vender in future?)
+		if already existing, add to that object's quantity
+	remove item:
+		pick one, and amount, if amount is less than 1 after, 
+		remove entirely.
+	view list:
+		List all objects
+	encomberance (?)
+		Calculate weight when something is picked up.
+	object stacking (?)
+		number of objects needed.
+	Search inventory function (For multiple situations)
+		Scan name
+
+Object features:
+	Weight: int //Current weight. To get object weight divide by number
+	Name: string
+	Amount: int
+	Description: string
+	//value?
+
+Improvements for later:
+	Implement a better search algorithm (inforce alphabetical order? sorted search?)
